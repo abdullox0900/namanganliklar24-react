@@ -1,0 +1,86 @@
+.column-news-right {
+    margin-left: 31px;
+}
+
+.news-right-list {
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 16px 20px 4px 20px;
+    list-style: none;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.colum-news-link {
+    text-decoration: none;
+}
+
+.news-right-item {
+    padding-bottom: 14px;
+    border-bottom: 4px solid #E4E4E4;
+}
+
+.news-right-item:last-child {
+    border-bottom: none;
+}
+
+.news-right-link {
+    text-decoration: none;
+}
+
+.news-right-title {
+    margin: 0;
+    margin-bottom: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #202020;
+}
+
+.news-right-title:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.news-right-subtitle {
+    margin: 0;
+    margin-top: 18px;
+    margin-bottom: 11px;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.news-right-subtitle:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.news-right-post-time {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #7688A4;
+}
+
+.colum-time-post {
+    display: flex;
+    align-items: center;
+}
+
+.colum-time-post::before {
+    content: '';
+    width: 14px;
+    height: 17px;
+    margin-right: 4px;
+    background-image: url("../../Assets/img/icon/Vector-kalendar.svg");
+    background-repeat: no-repeat;
+}
+
+.news-right-post-time:hover {
+    color: #535353;
+    opacity: 0.8;
+}
