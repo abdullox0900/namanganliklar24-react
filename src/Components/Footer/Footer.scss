@@ -1,0 +1,120 @@
+.namg-footer {
+    padding-top: 18px;
+    padding-bottom: 13px;
+    background: #295093;
+}
+
+.footer-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    padding-bottom: 18px;
+    border-bottom: 3px solid #133C82;
+}
+
+.footer-top-logo {
+    display: flex;
+    padding: 9px 12px 9px 12px;
+    background: #133C82;
+    border-radius: 5px;
+}
+
+.footer-top-right {
+    margin-left: 198px;
+}
+
+.footer-top-right-text {
+    margin: 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-top-btn {
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+    padding: 10px 11px 9px 10px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.footer-top-btn::before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    margin-right: 4px;
+    background-image: url("../../Assets/img/icon/cib_telegram.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.footer-top-btn:hover {
+    text-decoration: underline;
+}
+
+.footer-botton {
+    display: flex;
+}
+
+.footer-botton-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-botton-list + .footer-botton-list {
+      margin-left: 111px;
+}
+
+.footer-activ-links {
+    display: flex;
+    margin-bottom: 15px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-activ-links:hover {
+    text-decoration: underline;
+}
+
+.footer-activ-link {
+    display: flex;
+    text-decoration: none;
+    width: 365px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+
+.footer-activ-link:hover {
+    text-decoration: underline;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.footer-link:active {
+    opacity: 0.6;
+}
