@@ -1,0 +1,108 @@
+/* ----NEWS-BOX---- */
+
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin: -13px;
+}
+
+.card-link {
+    text-decoration: none;
+}
+
+.card-item {
+    width: 380px;
+    margin: 13px;
+}
+
+.card-title {
+    margin: 11px 0px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+
+.card-title:hover {
+    text-decoration: underline #202020;
+    opacity: 0.9;
+}
+
+.card-title:active {
+    opacity: 0.6;
+}
+
+.time-post {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6B6D97;
+}
+
+.time-post:hover {
+    color: #494b6b;
+}
+
+/* ----FULL-BANNER-BOX---- */
+
+.full-banner-box {
+    margin-top: 60px;
+    margin-bottom: 38px;
+    padding: 25px 20px 25px 34px;
+    background: rgba(239, 186, 84, 0.18);
+    border-radius: 5px
+}
+
+.banner-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-img {
+    margin-right: 18px;
+}
+
+.banner-img-text {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.banner-img-text::before {
+    content: '';
+    width: 29px;
+    height: 34px;
+    margin-right: 18px;
+    background-image: url("../../Assets/img/icon/bell-icon@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.ben-btn {
+    padding: 8px 8px 8px 15px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.ben-btn:hover {
+    text-decoration: underline #FFFFFF;
+}
+
+.ben-btn:active {
+     opacity: 0.6;
+}

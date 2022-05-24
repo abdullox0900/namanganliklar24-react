@@ -1,0 +1,110 @@
+/* ----COVID-BOX---- */
+
+.covid-box-banner {
+    padding: 42px 35px 42px 35px;
+    margin-bottom: 18px;
+    background: #F6F6F9;
+    border-radius: 5px;
+}
+
+.covid-list {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.covid-item:nth-child(3), .covid-item:nth-child(4) {
+    border-left: 2px solid #F4CCD1;
+    padding-left: 30px;
+}
+
+.covid-item:nth-child(2) {
+    border-left: 2px solid #EB5569;
+    padding-left: 30px;
+}
+
+.covid-text-title {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    margin-right: 81px;
+}
+
+.covid-text-title::before {
+    content: '';
+    width: 45px;
+    height: 47px;
+    margin-right: 25px;
+    background-image: url("../../Assets/img/icon/corona-icon.png");
+    background-repeat: no-repeat;
+}
+
+.covid-title {
+    margin: 0;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.covid-item-red {
+    display: flex;
+}
+
+.covid-item-red .covid-item-box {
+    margin-right: 70px;
+}
+
+.covid-title-red {
+    display: flex;
+    color: #DB0000;
+}
+
+.covid-item-red::before {
+    content: '';
+    width: 37px;
+    height: 39px;
+    margin-right: 18px;
+    background-image: url("../../Assets/img/icon/emojione-monotone_face-with-medical-mask.svg");
+    background-repeat: no-repeat;
+}
+
+.covid-item-green {
+    display: flex;
+    color: #05B135;
+    margin-right: 35px;
+}
+
+.covid-item-green::before {
+    content: '';
+    width: 37px;
+    height: 39px;
+    margin-right: 18px;
+    background-image: url("../../Assets/img/icon/cil_smile.svg");
+    background-repeat: no-repeat;
+}
+
+.covid-item-black {
+    display: flex;
+    margin-left: 20px;
+}
+
+.covid-item-black::before {
+    content: '';
+    width: 38px;
+    height: 39px;
+    margin-right: 18px;
+    background-image: url("../../Assets/img/icon/Vector.svg");
+    background-repeat: no-repeat;
+}
+
+.covid-subtitle {
+    margin: 0;
+    margin-top: 5px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 20px;
+    color: #000000;
+}
