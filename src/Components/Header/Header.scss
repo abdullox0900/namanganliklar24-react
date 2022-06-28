@@ -91,3 +91,19 @@
     margin-right: 7px;
     background-image: url("../../Assets/img/telegram-icon.png");
 }
+
+.header__dropdown {
+    margin-left: 370px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+ion-icon {
+    font-size: 25px;
+    color: #295091;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+}

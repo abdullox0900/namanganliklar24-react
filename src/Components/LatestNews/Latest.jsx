@@ -6,13 +6,13 @@ import ColumNews from "../ColumNewsRight/ColumNews";
 function Latest() {
     return (
         <>
-            <section class="Latest-news-box">
-                <div class="container">
-                    <div class="column-news">
-                        <h2 class="column-news-title">
+            <section className="Latest-news-box">
+                <div className="container">
+                    <div className="column-news">
+                        <h2 className="column-news-title">
                             Последние новости
                         </h2>
-                        <div class="column-header-box">
+                        <div className="column-header-box">
                             <NewsCard/>
                             <ColumNews/>
                         </div>

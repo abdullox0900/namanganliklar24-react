@@ -3,9 +3,32 @@ import "../Header/Header.scss";
 import Navbar from "../Navbar/Navbar";
 import AsideBanner from "../Aside/Aside";
 import Logo from "../../Assets/img/logo.svg"
+import { useTranslation } from "react-i18next";
+import bootstrap from "bootstrap";
+import i18next from "i18next";
 
+const language = [
+    {
+        code: "uz",
+        name: "Uzbekistan",
+        country: "uz",
+    },
+    {
+        code: "en",
+        name: "English",
+        country: "gb",
+    },
+    {
+        code: "ru",
+        name: "Rossian",
+        country: "ru",
+    },
+]
 
 function Header() {
+
+    const { t } = useTranslation();
+
     return (
         <>
             <header className="header-top">
@@ -32,8 +55,24 @@ function Header() {
                                 </ul>
                             </nav>
                         </div>
+                        <div className="dropdown header__dropdown">
+                            <button className="btn dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                            <ion-icon className="header__glob-icon" name="globe-outline"></ion-icon>
+                            </button>
+                            <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                {language.map(({ code, name, country }) => (
+                                    <li key={country}>
+                                        <button className="dropdown-item"
+                                            onClick={() => i18next.changeLanguage(code)}>
+                                            <span className={`flag-icon flag-icon-${country}`}></span>&nbsp;
+                                            {name}
+                                        </button>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
                         <div className="header-botton">
-                            <a href="#" className="header-btn">Подписатся</a>
+                            <a href="#" className="header-btn">{t("subscribe")}</a>
                         </div>
 
                     </div>
